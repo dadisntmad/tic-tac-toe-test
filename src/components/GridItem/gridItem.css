@@ -1,0 +1,32 @@
+.start__btn {
+  font-size: 74px;
+  color: #c4c4c4;
+  border: 3px solid #a855c1;
+  padding: 15px;
+  cursor: pointer;
+  background: none;
+}
+
+.start__btn:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.start__btn:nth-last-child(n + 3) {
+  border-top: none;
+}
+
+.start__btn:nth-of-type(1),
+.start__btn:nth-of-type(4),
+.start__btn:nth-of-type(7) {
+  border-left: none;
+}
+
+.start__btn:nth-of-type(3),
+.start__btn:nth-of-type(6),
+.start__btn:nth-of-type(9) {
+  border-right: none;
+}
+
+.highlight {
+  background: #af3d38;
+}
